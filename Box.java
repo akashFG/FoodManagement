@@ -3,7 +3,7 @@ public class Box
 {
 	private double length;
 	private double width;
-	private double heigth;
+	
 	
 	public void setLength(double l)
 	{
@@ -15,10 +15,6 @@ public class Box
 		width = w;
 	}
 	
-	public void setHeigth(double h)
-	{
-		heigth = h;
-	}
 	
 	public double getLength()
 	{
@@ -30,10 +26,7 @@ public class Box
 		return width;
 	}
 	
-	public double getHeigth()
-	{
-		return heigth;
-	}
+	
 	
 	public static void main(String args[])
 	{
@@ -41,11 +34,10 @@ public class Box
 		
 		b.setLength(3.7);
 		b.setWidth(4.1);
-		b.setHeigth(2.1);
+		
 		
 		System.out.println("Length is: " + b.getLength());
 		System.out.println("Width is: " + b.getLength());
-		System.out.println("Heigth is: " + b.getHeigth());
 		
 		//cout<<"Length is: " << b.getLength() << endl;
 		
